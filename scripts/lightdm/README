@@ -1,0 +1,12 @@
+Automatically starts barrier with the login screen and switches when screen is locked.
+
+To install:
+
+Edit barrier_lightdm.sh to replace IPs and such
+
+Copy 70-linuxmint.conf to  /etc/lightdm/lightdm.conf.d/
+Copy barrier_lightdm.sh to /usr/sbin/
+
+Start barrier as the root user to add the SSL fingerprint
+
+Before using these make sure you add the SSL fingerprint to the root user home directory
