@@ -9,4 +9,4 @@ Copy barrier_lightdm.sh to /usr/sbin/
 
 Start barrier as the root user to add the SSL fingerprint
 
-Before using these make sure you add the SSL fingerprint to the root user home directory
+Restart the lightdm service
